@@ -1,1 +1,16 @@
+ion-content {
+  ion-slides {
+    background-color: #f0f0f0;
+    height: calc(100vw * 0.625);
+  }
 
+  ion-toolbar {
+    --border-width: 0 0 0.55px 0;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    text-align: center;
+  }
+}
